@@ -1,13 +1,14 @@
 package com.wozpi.infinity.kit.framework.base
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.wozpi.infinity.kit.framework.model.ErrorResponse
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlin.coroutines.CoroutineContext
 
-open class KitViewModel {
+open class KitViewModel : ViewModel(){
     private val mParentJob = Job()
     private val mCoroutineContext: CoroutineContext
         get() = mParentJob + Dispatchers.Main
