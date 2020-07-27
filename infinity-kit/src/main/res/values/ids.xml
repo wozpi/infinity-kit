@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    ids-->
+    <item name="viewMask" type="id"/>
+    <item name="btClose" type="id"/>
+<!--    colors-->
+    <item name="colorPrimary" type="color"/>
+    <item name="colorAccent" type="color"/>
+</resources>

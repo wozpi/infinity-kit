@@ -1,0 +1,3 @@
+rootProject.name='Infinity Go'
+include ':app'
+include ':infinity-kit'
