@@ -50,4 +50,8 @@ dependencies {
     implementation "org.koin:koin-android:$koin_version"
     implementation "org.koin:koin-android-viewmodel:$koin_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$koin_lifecycle_version"
+
+    /**Material design*/
+    implementation "com.google.android.material:material:$material_design_version"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swiperefresh_version"
 }

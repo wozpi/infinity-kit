@@ -3,7 +3,9 @@
 <!--    ids-->
     <item name="viewMask" type="id"/>
     <item name="btClose" type="id"/>
+    <item name="refreshLayout" type="id"/>
 <!--    colors-->
     <item name="colorPrimary" type="color"/>
     <item name="colorAccent" type="color"/>
+    <item name="colorRefresh" type="color"/>
 </resources>
